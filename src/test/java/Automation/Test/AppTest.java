@@ -1,15 +1,10 @@
 package Automation.Test;
-
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import org.testng.annotations.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-/**
- * Unit test for simple App.
- */
 public class AppTest {
 	
 	@Test
